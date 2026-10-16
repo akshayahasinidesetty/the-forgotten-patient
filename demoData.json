@@ -1,0 +1,637 @@
+{
+  "source": "Provided hospital dataset \u2014 aggregated demo data",
+  "record_count": 8000,
+  "valid_wait_count": 8000,
+  "avg_wait": 51.99225,
+  "median_wait": 52.0,
+  "p90_wait": 84.0,
+  "avg_service": 47.72575,
+  "departments": [
+    {
+      "department_name": "Admissions",
+      "visits": 702,
+      "avg_wait": 44.64672364672364,
+      "median_wait": 45.0,
+      "max_wait": 134.0,
+      "avg_service": 48.08119658119658,
+      "long_wait": 67,
+      "staff_count": 5,
+      "bed_count": 50,
+      "daily_capacity": 438,
+      "service_type": "Admin"
+    },
+    {
+      "department_name": "Cardiology",
+      "visits": 663,
+      "avg_wait": 44.800904977375566,
+      "median_wait": 45.0,
+      "max_wait": 124.0,
+      "avg_service": 47.1025641025641,
+      "long_wait": 67,
+      "staff_count": 25,
+      "bed_count": 22,
+      "daily_capacity": 394,
+      "service_type": "Clinical"
+    },
+    {
+      "department_name": "Emergency",
+      "visits": 709,
+      "avg_wait": 48.66854724964739,
+      "median_wait": 48.0,
+      "max_wait": 118.0,
+      "avg_service": 45.68970380818054,
+      "long_wait": 70,
+      "staff_count": 28,
+      "bed_count": 29,
+      "daily_capacity": 431,
+      "service_type": "Emergency"
+    },
+    {
+      "department_name": "General Medicine",
+      "visits": 666,
+      "avg_wait": 55.2042042042042,
+      "median_wait": 55.0,
+      "max_wait": 126.0,
+      "avg_service": 50.16216216216216,
+      "long_wait": 66,
+      "staff_count": 30,
+      "bed_count": 48,
+      "daily_capacity": 298,
+      "service_type": "Clinical"
+    },
+    {
+      "department_name": "Laboratory",
+      "visits": 659,
+      "avg_wait": 60.640364188163886,
+      "median_wait": 62.0,
+      "max_wait": 153.0,
+      "avg_service": 46.877086494688925,
+      "long_wait": 65,
+      "staff_count": 27,
+      "bed_count": 55,
+      "daily_capacity": 156,
+      "service_type": "Diagnostics"
+    },
+    {
+      "department_name": "Neurology",
+      "visits": 664,
+      "avg_wait": 56.08283132530121,
+      "median_wait": 56.0,
+      "max_wait": 120.0,
+      "avg_service": 46.86295180722892,
+      "long_wait": 63,
+      "staff_count": 12,
+      "bed_count": 25,
+      "daily_capacity": 216,
+      "service_type": "Clinical"
+    },
+    {
+      "department_name": "Orthopedics",
+      "visits": 629,
+      "avg_wait": 49.41494435612083,
+      "median_wait": 50.0,
+      "max_wait": 125.0,
+      "avg_service": 46.51987281399046,
+      "long_wait": 63,
+      "staff_count": 9,
+      "bed_count": 48,
+      "daily_capacity": 243,
+      "service_type": "Clinical"
+    },
+    {
+      "department_name": "Outpatient",
+      "visits": 629,
+      "avg_wait": 57.81558028616852,
+      "median_wait": 57.0,
+      "max_wait": 127.0,
+      "avg_service": 47.252782193958666,
+      "long_wait": 63,
+      "staff_count": 16,
+      "bed_count": 48,
+      "daily_capacity": 215,
+      "service_type": "Outpatient"
+    },
+    {
+      "department_name": "Pediatrics",
+      "visits": 657,
+      "avg_wait": 60.77625570776256,
+      "median_wait": 62.0,
+      "max_wait": 125.0,
+      "avg_service": 47.34703196347032,
+      "long_wait": 61,
+      "staff_count": 16,
+      "bed_count": 11,
+      "daily_capacity": 368,
+      "service_type": "Clinical"
+    },
+    {
+      "department_name": "Pharmacy",
+      "visits": 687,
+      "avg_wait": 44.614264919941775,
+      "median_wait": 45.0,
+      "max_wait": 121.0,
+      "avg_service": 48.93740902474527,
+      "long_wait": 67,
+      "staff_count": 20,
+      "bed_count": 26,
+      "daily_capacity": 445,
+      "service_type": "Support"
+    },
+    {
+      "department_name": "Radiology",
+      "visits": 658,
+      "avg_wait": 54.819148936170215,
+      "median_wait": 56.0,
+      "max_wait": 116.0,
+      "avg_service": 47.61702127659574,
+      "long_wait": 65,
+      "staff_count": 7,
+      "bed_count": 54,
+      "daily_capacity": 153,
+      "service_type": "Diagnostics"
+    },
+    {
+      "department_name": "Surgery",
+      "visits": 677,
+      "avg_wait": 47.741506646971935,
+      "median_wait": 48.0,
+      "max_wait": 111.0,
+      "avg_service": 50.17872968980797,
+      "long_wait": 65,
+      "staff_count": 5,
+      "bed_count": 17,
+      "daily_capacity": 181,
+      "service_type": "Clinical"
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2025-01",
+      "visits": 707,
+      "avg_wait": 51.396039603960396,
+      "avg_service": 47.676096181046674
+    },
+    {
+      "month": "2025-02",
+      "visits": 562,
+      "avg_wait": 51.63345195729537,
+      "avg_service": 47.47864768683274
+    },
+    {
+      "month": "2025-03",
+      "visits": 741,
+      "avg_wait": 51.37921727395412,
+      "avg_service": 47.05802968960864
+    },
+    {
+      "month": "2025-04",
+      "visits": 624,
+      "avg_wait": 52.00801282051282,
+      "avg_service": 45.47115384615385
+    },
+    {
+      "month": "2025-05",
+      "visits": 689,
+      "avg_wait": 52.70827285921626,
+      "avg_service": 48.02612481857765
+    },
+    {
+      "month": "2025-06",
+      "visits": 633,
+      "avg_wait": 51.73617693522907,
+      "avg_service": 47.132701421800945
+    },
+    {
+      "month": "2025-07",
+      "visits": 680,
+      "avg_wait": 52.93235294117647,
+      "avg_service": 48.008823529411764
+    },
+    {
+      "month": "2025-08",
+      "visits": 652,
+      "avg_wait": 50.9601226993865,
+      "avg_service": 47.70705521472393
+    },
+    {
+      "month": "2025-09",
+      "visits": 692,
+      "avg_wait": 52.358381502890175,
+      "avg_service": 48.028901734104046
+    },
+    {
+      "month": "2025-10",
+      "visits": 699,
+      "avg_wait": 52.09871244635193,
+      "avg_service": 49.19599427753934
+    },
+    {
+      "month": "2025-11",
+      "visits": 624,
+      "avg_wait": 51.48397435897436,
+      "avg_service": 48.37820512820513
+    },
+    {
+      "month": "2025-12",
+      "visits": 697,
+      "avg_wait": 53.081779053084645,
+      "avg_service": 48.327116212338595
+    }
+  ],
+  "wait_distribution": [
+    {
+      "range": "0\u201315",
+      "count": 665
+    },
+    {
+      "range": "16\u201330",
+      "count": 972
+    },
+    {
+      "range": "31\u201345",
+      "count": 1550
+    },
+    {
+      "range": "46\u201360",
+      "count": 1796
+    },
+    {
+      "range": "61\u201390",
+      "count": 2526
+    },
+    {
+      "range": "91\u2013120",
+      "count": 481
+    },
+    {
+      "range": "120+",
+      "count": 10
+    }
+  ],
+  "diagnostics": [
+    {
+      "test_type": "Blood test",
+      "tests": 805,
+      "avg_turnaround": 73.58757763975156
+    },
+    {
+      "test_type": "CT scan",
+      "tests": 835,
+      "avg_turnaround": 70.12814371257485
+    },
+    {
+      "test_type": "ECG",
+      "tests": 818,
+      "avg_turnaround": 70.59290953545232
+    },
+    {
+      "test_type": "MRI",
+      "tests": 845,
+      "avg_turnaround": 68.08757396449704
+    },
+    {
+      "test_type": "Urine test",
+      "tests": 812,
+      "avg_turnaround": 66.50615763546799
+    },
+    {
+      "test_type": "X-ray",
+      "tests": 885,
+      "avg_turnaround": 69.45762711864407
+    }
+  ],
+  "alerts": [
+    {
+      "department_name": "Laboratory",
+      "visits": 659,
+      "avg_wait": 60.640364188163886,
+      "median_wait": 62.0,
+      "max_wait": 153.0,
+      "staff_count": 27,
+      "service_type": "Diagnostics",
+      "long_wait_cases": 122,
+      "long_wait_rate_pct": 18.5,
+      "priority": "MEDIUM",
+      "reason": "Long-wait visits are present; review queue flow"
+    },
+    {
+      "department_name": "Pediatrics",
+      "visits": 657,
+      "avg_wait": 60.77625570776256,
+      "median_wait": 62.0,
+      "max_wait": 125.0,
+      "staff_count": 16,
+      "service_type": "Clinical",
+      "long_wait_cases": 111,
+      "long_wait_rate_pct": 16.9,
+      "priority": "MEDIUM",
+      "reason": "Long-wait visits are present; review queue flow"
+    },
+    {
+      "department_name": "Outpatient",
+      "visits": 629,
+      "avg_wait": 57.81558028616852,
+      "median_wait": 57.0,
+      "max_wait": 127.0,
+      "staff_count": 16,
+      "service_type": "Outpatient",
+      "long_wait_cases": 91,
+      "long_wait_rate_pct": 14.5,
+      "priority": "MEDIUM",
+      "reason": "Long-wait visits are present; review queue flow"
+    },
+    {
+      "department_name": "Neurology",
+      "visits": 664,
+      "avg_wait": 56.08283132530121,
+      "median_wait": 56.0,
+      "max_wait": 120.0,
+      "staff_count": 12,
+      "service_type": "Clinical",
+      "long_wait_cases": 83,
+      "long_wait_rate_pct": 12.5,
+      "priority": "MEDIUM",
+      "reason": "Long-wait visits are present; review queue flow"
+    },
+    {
+      "department_name": "Radiology",
+      "visits": 658,
+      "avg_wait": 54.819148936170215,
+      "median_wait": 56.0,
+      "max_wait": 116.0,
+      "staff_count": 7,
+      "service_type": "Diagnostics",
+      "long_wait_cases": 76,
+      "long_wait_rate_pct": 11.6,
+      "priority": "MEDIUM",
+      "reason": "Long-wait visits are present; review queue flow"
+    },
+    {
+      "department_name": "General Medicine",
+      "visits": 666,
+      "avg_wait": 55.2042042042042,
+      "median_wait": 55.0,
+      "max_wait": 126.0,
+      "staff_count": 30,
+      "service_type": "Clinical",
+      "long_wait_cases": 71,
+      "long_wait_rate_pct": 10.7,
+      "priority": "MEDIUM",
+      "reason": "Long-wait visits are present; review queue flow"
+    },
+    {
+      "department_name": "Orthopedics",
+      "visits": 629,
+      "avg_wait": 49.41494435612083,
+      "median_wait": 50.0,
+      "max_wait": 125.0,
+      "staff_count": 9,
+      "service_type": "Clinical",
+      "long_wait_cases": 42,
+      "long_wait_rate_pct": 6.7,
+      "priority": "MEDIUM",
+      "reason": "Long-wait visits are present; review queue flow"
+    },
+    {
+      "department_name": "Emergency",
+      "visits": 709,
+      "avg_wait": 48.66854724964739,
+      "median_wait": 48.0,
+      "max_wait": 118.0,
+      "staff_count": 28,
+      "service_type": "Emergency",
+      "long_wait_cases": 44,
+      "long_wait_rate_pct": 6.2,
+      "priority": "MEDIUM",
+      "reason": "Long-wait visits are present; review queue flow"
+    },
+    {
+      "department_name": "Surgery",
+      "visits": 677,
+      "avg_wait": 47.741506646971935,
+      "median_wait": 48.0,
+      "max_wait": 111.0,
+      "staff_count": 5,
+      "service_type": "Clinical",
+      "long_wait_cases": 42,
+      "long_wait_rate_pct": 6.2,
+      "priority": "MEDIUM",
+      "reason": "Long-wait visits are present; review queue flow"
+    },
+    {
+      "department_name": "Admissions",
+      "visits": 702,
+      "avg_wait": 44.64672364672364,
+      "median_wait": 45.0,
+      "max_wait": 134.0,
+      "staff_count": 5,
+      "service_type": "Admin",
+      "long_wait_cases": 35,
+      "long_wait_rate_pct": 5.0,
+      "priority": "MEDIUM",
+      "reason": "Long-wait visits are present; review queue flow"
+    },
+    {
+      "department_name": "Cardiology",
+      "visits": 663,
+      "avg_wait": 44.800904977375566,
+      "median_wait": 45.0,
+      "max_wait": 124.0,
+      "staff_count": 25,
+      "service_type": "Clinical",
+      "long_wait_cases": 32,
+      "long_wait_rate_pct": 4.8,
+      "priority": "MEDIUM",
+      "reason": "Long-wait visits are present; review queue flow"
+    },
+    {
+      "department_name": "Pharmacy",
+      "visits": 687,
+      "avg_wait": 44.614264919941775,
+      "median_wait": 45.0,
+      "max_wait": 121.0,
+      "staff_count": 20,
+      "service_type": "Support",
+      "long_wait_cases": 22,
+      "long_wait_rate_pct": 3.2,
+      "priority": "MEDIUM",
+      "reason": "Long-wait visits are present; review queue flow"
+    }
+  ],
+  "visit_types": [
+    {
+      "name": "Scheduled",
+      "value": 2849
+    },
+    {
+      "name": "Walk-in",
+      "value": 2431
+    },
+    {
+      "name": "Emergency",
+      "value": 1561
+    },
+    {
+      "name": "Follow-up",
+      "value": 1159
+    }
+  ],
+  "outcomes": [
+    {
+      "name": "Discharged",
+      "value": 5685
+    },
+    {
+      "name": "Admitted",
+      "value": 1646
+    },
+    {
+      "name": "Transferred",
+      "value": 427
+    },
+    {
+      "name": "Left before care",
+      "value": 242
+    }
+  ],
+  "triage": [
+    {
+      "name": "Medium",
+      "value": 3583
+    },
+    {
+      "name": "Low",
+      "value": 2800
+    },
+    {
+      "name": "High",
+      "value": 1274
+    },
+    {
+      "name": "Critical",
+      "value": 343
+    }
+  ],
+  "hourly": [
+    {
+      "hour": 0,
+      "visits": 300,
+      "avg_wait": 51.17666666666667
+    },
+    {
+      "hour": 1,
+      "visits": 322,
+      "avg_wait": 51.10248447204969
+    },
+    {
+      "hour": 2,
+      "visits": 328,
+      "avg_wait": 50.78048780487805
+    },
+    {
+      "hour": 3,
+      "visits": 311,
+      "avg_wait": 49.70096463022508
+    },
+    {
+      "hour": 4,
+      "visits": 357,
+      "avg_wait": 51.71148459383753
+    },
+    {
+      "hour": 5,
+      "visits": 375,
+      "avg_wait": 52.309333333333335
+    },
+    {
+      "hour": 6,
+      "visits": 361,
+      "avg_wait": 51.745152354570635
+    },
+    {
+      "hour": 7,
+      "visits": 322,
+      "avg_wait": 50.599378881987576
+    },
+    {
+      "hour": 8,
+      "visits": 349,
+      "avg_wait": 53.37535816618911
+    },
+    {
+      "hour": 9,
+      "visits": 322,
+      "avg_wait": 52.5
+    },
+    {
+      "hour": 10,
+      "visits": 320,
+      "avg_wait": 52.0375
+    },
+    {
+      "hour": 11,
+      "visits": 335,
+      "avg_wait": 52.96716417910448
+    },
+    {
+      "hour": 12,
+      "visits": 300,
+      "avg_wait": 51.32
+    },
+    {
+      "hour": 13,
+      "visits": 341,
+      "avg_wait": 51.34604105571847
+    },
+    {
+      "hour": 14,
+      "visits": 301,
+      "avg_wait": 52.89036544850498
+    },
+    {
+      "hour": 15,
+      "visits": 341,
+      "avg_wait": 53.3782991202346
+    },
+    {
+      "hour": 16,
+      "visits": 330,
+      "avg_wait": 54.13030303030303
+    },
+    {
+      "hour": 17,
+      "visits": 316,
+      "avg_wait": 52.686708860759495
+    },
+    {
+      "hour": 18,
+      "visits": 349,
+      "avg_wait": 51.20916905444126
+    },
+    {
+      "hour": 19,
+      "visits": 339,
+      "avg_wait": 52.56342182890855
+    },
+    {
+      "hour": 20,
+      "visits": 341,
+      "avg_wait": 52.58064516129032
+    },
+    {
+      "hour": 21,
+      "visits": 344,
+      "avg_wait": 52.90406976744186
+    },
+    {
+      "hour": 22,
+      "visits": 371,
+      "avg_wait": 52.18059299191375
+    },
+    {
+      "hour": 23,
+      "visits": 325,
+      "avg_wait": 50.215384615384615
+    }
+  ]
+}
