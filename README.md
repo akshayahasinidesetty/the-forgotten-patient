@@ -1,37 +1,119 @@
-# The Forgotten Patient — Hospital Flow Intelligence
+#  The Forgotten Patient
+### Hospital Flow Intelligence Platform
 
-A React + Vite prototype for hospital operations analytics. It includes a responsive dashboard, department comparisons, rule-based priority signals, patient-journey overview, diagnostic turnaround analysis, CSV import/export, and light/dark/night themes.
+**Team Name:** Hyperparameter Hunters
 
-## Dataset and privacy
+**Tagline:** *See the queue. Spot the delay. Improve the patient journey.*
 
-The provided archive contained `encounters.csv`, `departments.csv`, `diagnostic_tests.csv`, and `patients.csv`. This repository includes only **aggregated demonstration metrics** derived from the encounter, department, and diagnostic files in `src/data/demoData.json`. It deliberately does **not** include the raw patient CSV or patient identifiers.
+##  About the Project
 
-CSV uploads are parsed locally in the browser in this prototype. Upload `encounters.csv` to calculate visit and wait-time summaries; optionally include `departments.csv` and `diagnostic_tests.csv`. Do not upload identifiable patient information to a public website or repository.
+The Forgotten Patient is a hospital operations intelligence platform designed to help identify patient waiting-time bottlenecks and improve hospital workflow.
 
-## Run locally
+Using hospital encounter and diagnostic datasets, the platform analyzes waiting times, compares department performance, identifies potential operational bottlenecks, and presents insights through an interactive dashboard.
 
-Requirements: Node.js 18+ recommended.
+Our goal is to help hospital administrators understand where delays occur and decide which operational issues to investigate first.
 
-```bash
-npm install
-npm run dev
-```
+##  Problem Statement
 
-Open the local URL printed by Vite.
+Hospitals manage multiple stages of patient care, from arrival and consultation to diagnostics and discharge. Delays across these stages can affect patient experience and operational efficiency.
 
-To create a production build:
+Without a consolidated view of hospital workflow, it can be difficult to identify departments experiencing long waits and prioritize improvements.
 
-```bash
-npm run build
-npm run preview
-```
+##  Our Solution
 
-## GitHub Pages / deployment
+The Forgotten Patient brings hospital operational data into one dashboard to support data-driven investigation and decision-making.
 
-You can push this repository to GitHub and deploy it through a static hosting provider such as Vercel or Netlify. For GitHub Pages with a project repository, configure Vite's `base` path to `/<repository-name>/` before building.
+### Key Features
 
-## Important prototype limitations
+- **Hospital Overview:** View visit records and key waiting-time indicators.
+- **Department Analytics:** Compare waiting times and visit volumes across departments.
+- **Priority Alerts:** Highlight departments with potentially significant waiting-time bottlenecks.
+- **Patient Journey:** Visualize available stages of the hospital visit.
+- **Diagnostic Analytics:** Analyze diagnostic turnaround times when the required data is available.
+- **Interactive Dashboard:** Explore operational insights through charts, tables, and filters.
+- **Theme Options:** Switch between light, dark, and night modes.
+- **Data Management:** Upload supported CSV files and export operational summaries.
 
-- The sign-in screen is a **local demo gate only**. It is not secure authentication and must not protect real patient data. Connect Supabase Auth or another identity provider and enforce authorization on a backend before production.
-- The provided prototype uses rule-based alerts and descriptive analytics. It does not contain a trained wait-time prediction model. Do not describe predictions as live until a validated model and API are connected.
-- Operational flags are not clinical decisions. Human review is required.
+##  Technology Stack
+
+- Frontend: React and TypeScript
+- Build Tool: Vite
+- Styling: Tailwind CSS
+- Data Visualization: Interactive charts
+- Data Processing: Python and Pandas, where applicable
+- Version Control: Git and GitHub
+- Deployment: Render
+
+*The final stack depends on the components successfully integrated into the submitted version.*
+
+##  Team Members
+
+| Name | Registration Number |
+|---|---|
+| Akshaya Hasini Desetty | 25BCE8286 |
+| Snehitha Marella | 25BCA7653 |
+
+**Team Name:** Hyperparameter Hunters
+
+## Running the Project Locally
+
+### Prerequisites
+
+- Node.js and npm
+- Git
+- Visual Studio Code (recommended)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone YOUR_GITHUB_REPOSITORY_URL
+   ```
+
+2. Enter the project directory:
+
+   ```bash
+   cd forgotten-patient
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in the terminal.
+
+##  Expected Impact
+
+- Improve visibility into hospital waiting-time patterns.
+- Help identify departments that may require operational investigation.
+- Support evidence-based workflow improvement.
+- Make hospital operations data easier to understand through visual analytics.
+
+##  Data Privacy and Responsible Use
+
+The platform is intended for hospital operations analysis and decision support. Patient-identifiable information should not be exposed in public repositories or demonstrations.
+
+Alerts indicate patterns requiring further investigation; they do not establish the cause of a delay or replace professional judgment. The platform is not intended for clinical diagnosis.
+
+##  Future Enhancements
+
+- Secure authentication and role-based access.
+- Integration with live hospital data systems.
+- Machine-learning-based waiting-time prediction.
+- Real-time queue monitoring.
+- Additional operational recommendations based on validated data.
+
+---
+
+**Built by Hyperparameter Hunters**
+
+*The Forgotten Patient — because every delay deserves attention.*
