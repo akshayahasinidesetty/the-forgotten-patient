@@ -63,33 +63,6 @@ The Forgotten Patient brings hospital operational data into one dashboard to sup
 - Git
 - Visual Studio Code (recommended)
 
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone YOUR_GITHUB_REPOSITORY_URL
-   ```
-
-2. Enter the project directory:
-
-   ```bash
-   cd forgotten-patient
-   ```
-
-3. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-4. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-5. Open the local URL displayed in the terminal.
 
 ##  Expected Impact
 
